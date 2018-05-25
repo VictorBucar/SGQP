@@ -1,6 +1,10 @@
 
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHPWSuCyIFPtUfNT2LS8jF1GjiJYezlB-3sL0pKgdTBr2xzHp0" alt="Rant logo" height="225px" width="225px"></img>
+</p>
+<br/>
 
-# SGQP - Sistema de Gerenciamento de Questões e Provas ![logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHPWSuCyIFPtUfNT2LS8jF1GjiJYezlB-3sL0pKgdTBr2xzHp0)
+# SGQP - Sistema de Gerenciamento de Questões e Provas 
 Generates questions to exams in accordance with the disciplines
 
 ## DESCRIPTION
