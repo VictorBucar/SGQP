@@ -9,7 +9,7 @@ Generates questions to exams in accordance with the disciplines
 
 ## DESCRIPTION
 
-This project originally started out as an interview with Professor Marcos Quezado. This project is a final paper from Analysis and Development System Graduate course (ADS). The pruprose of this SGQP (Managment Questions and Exams System in english) is generate questions for exams dinamically to help teachers in work.
+This project originally started out as an interview with Professor Marcos Quezado. This project is a final paper from Analysis and Development System Graduate course (ADS). The purpose of this SGQP (Managment Questions and Exams System in english) is generate questions for exams dinamically to help teachers in work.
 
 #### Requirements:
   1. .NET Core >= 2.0
