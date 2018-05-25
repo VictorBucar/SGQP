@@ -674,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\raphael.coelho\\source\\repos\\SGQP\\SGQP.Domain\\SGQP.Domain.csproj",
+      "projectUniqueName": "C:\\repositorio\\SGQP\\SGQP.Domain\\SGQP.Domain.csproj",
       "projectName": "SGQP.Domain",
-      "projectPath": "C:\\Users\\raphael.coelho\\source\\repos\\SGQP\\SGQP.Domain\\SGQP.Domain.csproj",
+      "projectPath": "C:\\repositorio\\SGQP\\SGQP.Domain\\SGQP.Domain.csproj",
       "packagesPath": "C:\\Users\\raphael.coelho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raphael.coelho\\source\\repos\\SGQP\\SGQP.Domain\\obj\\",
+      "outputPath": "C:\\repositorio\\SGQP\\SGQP.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

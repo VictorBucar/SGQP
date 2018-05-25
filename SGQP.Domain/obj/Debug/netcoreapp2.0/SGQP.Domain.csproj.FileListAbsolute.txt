@@ -7,3 +7,12 @@ c:\users\raphael.coelho\source\repos\SGQP\SGQP.Domain\obj\Debug\netcoreapp2.0\SG
 c:\users\raphael.coelho\source\repos\SGQP\SGQP.Domain\obj\Debug\netcoreapp2.0\SGQP.Domain.AssemblyInfo.cs
 c:\users\raphael.coelho\source\repos\SGQP\SGQP.Domain\obj\Debug\netcoreapp2.0\SGQP.Domain.dll
 c:\users\raphael.coelho\source\repos\SGQP\SGQP.Domain\obj\Debug\netcoreapp2.0\SGQP.Domain.pdb
+C:\repositorio\SGQP\SGQP.Domain\bin\Debug\netcoreapp2.0\SGQP.Domain.deps.json
+C:\repositorio\SGQP\SGQP.Domain\bin\Debug\netcoreapp2.0\SGQP.Domain.dll
+C:\repositorio\SGQP\SGQP.Domain\bin\Debug\netcoreapp2.0\SGQP.Domain.pdb
+C:\repositorio\SGQP\SGQP.Domain\obj\Debug\netcoreapp2.0\SGQP.Domain.csprojResolveAssemblyReference.cache
+C:\repositorio\SGQP\SGQP.Domain\obj\Debug\netcoreapp2.0\SGQP.Domain.csproj.CoreCompileInputs.cache
+C:\repositorio\SGQP\SGQP.Domain\obj\Debug\netcoreapp2.0\SGQP.Domain.AssemblyInfoInputs.cache
+C:\repositorio\SGQP\SGQP.Domain\obj\Debug\netcoreapp2.0\SGQP.Domain.AssemblyInfo.cs
+C:\repositorio\SGQP\SGQP.Domain\obj\Debug\netcoreapp2.0\SGQP.Domain.dll
+C:\repositorio\SGQP\SGQP.Domain\obj\Debug\netcoreapp2.0\SGQP.Domain.pdb
