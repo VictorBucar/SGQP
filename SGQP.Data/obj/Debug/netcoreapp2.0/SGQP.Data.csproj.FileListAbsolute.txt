@@ -1,0 +1,9 @@
+c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Data.deps.json
+c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Data.dll
+c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Data.pdb
+c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.csprojResolveAssemblyReference.cache
+c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.csproj.CoreCompileInputs.cache
+c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.AssemblyInfoInputs.cache
+c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.AssemblyInfo.cs
+c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.dll
+c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.pdb
