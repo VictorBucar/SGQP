@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "SGQP.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SGQP.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SGQP.Domain.dll": {}
+        }
       }
     }
   },
@@ -656,11 +666,17 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "SGQP.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SGQP.Domain/SGQP.Domain.csproj",
+      "msbuildProject": "../SGQP.Domain/SGQP.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "SGQP.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -698,7 +714,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\repositorio\\SGQP\\SGQP.Domain\\SGQP.Domain.csproj": {
+              "projectPath": "C:\\repositorio\\SGQP\\SGQP.Domain\\SGQP.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
