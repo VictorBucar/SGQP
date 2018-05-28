@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +22,13 @@ namespace SGQP.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //adicionar o servico de cookies na aplicacao
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                    options.LoginPath = "/Account/Login"
+                );
+
             services.AddMvc();
         }
 
@@ -38,6 +46,9 @@ namespace SGQP.Web
             }
 
             app.UseStaticFiles();
+
+            //Indica que será utilizada autenticação
+            app.UseAuthentication();
 
             app.UseMvc();
         }
