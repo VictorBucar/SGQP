@@ -33,3 +33,7 @@ body {
         display: none;
     }
 }
+
+.open .menutoggle i:before {
+    content: "\f065" !important;
+}

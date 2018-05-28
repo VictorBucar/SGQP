@@ -382,9 +382,10 @@ header.fixed-top {
   width: 43px; }
 
 .open .menutoggle i:before {
-  content: "\f0a4"; }
+    content: "\f065";
+}
 
-.search-trigger {
+    .search-trigger {
   background: transparent;
   border: none;
   color: #272c33;

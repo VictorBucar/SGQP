@@ -18,6 +18,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGQP.Services", "SGQP.Services\SGQP.Services.csproj", "{5613DDDA-CCF8-431B-9E31-EC3E6D107A01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USER_INTERFACE", "USER_INTERFACE", "{49F864FF-3834-4A4B-B706-8B30A5D12101}"
+	ProjectSection(SolutionItems) = preProject
+		anotações.txt = anotações.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGQP.Web", "SGQP.Web\SGQP.Web.csproj", "{1331B72C-C302-4609-95B9-A3171A89922F}"
 EndProject
