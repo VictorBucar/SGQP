@@ -7,7 +7,6 @@
   <ItemGroup>
     <Folder Include="Interfaces\Services\" />
     <Folder Include="Interfaces\Repositories\" />
-    <Folder Include="ValueObjects\" />
   </ItemGroup>
 
 </Project>

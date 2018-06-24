@@ -1,15 +1,8 @@
-c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Data.deps.json
-c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Data.dll
-c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Data.pdb
-c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.csprojResolveAssemblyReference.cache
-c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.csproj.CoreCompileInputs.cache
-c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.AssemblyInfoInputs.cache
-c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.AssemblyInfo.cs
-c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.dll
-c:\users\raphael.coelho\source\repos\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.pdb
 C:\repositorio\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Data.deps.json
 C:\repositorio\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Data.dll
 C:\repositorio\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Data.pdb
+C:\repositorio\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Domain.dll
+C:\repositorio\SGQP\SGQP.Data\bin\Debug\netcoreapp2.0\SGQP.Domain.pdb
 C:\repositorio\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.csprojResolveAssemblyReference.cache
 C:\repositorio\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.csproj.CoreCompileInputs.cache
 C:\repositorio\SGQP\SGQP.Data\obj\Debug\netcoreapp2.0\SGQP.Data.AssemblyInfoInputs.cache

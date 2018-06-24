@@ -1,0 +1,8 @@
+C:\repositorio\SGQP\SGQP.Application\bin\Debug\netcoreapp2.0\SGQP.Application.deps.json
+C:\repositorio\SGQP\SGQP.Application\bin\Debug\netcoreapp2.0\SGQP.Application.dll
+C:\repositorio\SGQP\SGQP.Application\bin\Debug\netcoreapp2.0\SGQP.Application.pdb
+C:\repositorio\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.csproj.CoreCompileInputs.cache
+C:\repositorio\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.AssemblyInfoInputs.cache
+C:\repositorio\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.AssemblyInfo.cs
+C:\repositorio\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.dll
+C:\repositorio\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.pdb
