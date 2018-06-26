@@ -17,3 +17,16 @@ C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMV
 C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.csproj.CoreCompileInputs.cache
 C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.AssemblyInfoInputs.cache
 C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.AssemblyInfo.cs
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.Data.dll
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.Domain.dll
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.Domain.pdb
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.WebMVC.deps.json
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.WebMVC.runtimeconfig.json
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.WebMVC.runtimeconfig.dev.json
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.WebMVC.dll
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.WebMVC.pdb
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.Data.pdb
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.dll
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.pdb
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.Repository.dll
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\bin\Debug\netcoreapp2.0\SGQP.Repository.pdb

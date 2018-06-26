@@ -79,7 +79,7 @@ namespace SGQP.WebMVC.Controllers
             var salt = psw.CreateSalt();
             var hash = psw.CreateHash(password, salt);
 
-            if (hash == user.Password.Content)
+            if (hash == user.Password)
             {
                 isUserValid = true;
             }      

@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using SGQP.Data.Contexts;
 using Microsoft.EntityFrameworkCore;
+using SGQP.Domain.Interfaces.Repositories;
+using SGQP.Repository.UserReposiory;
 
 namespace SGQP.WebMVC
 {
@@ -40,6 +42,8 @@ namespace SGQP.WebMVC
 
             services.AddDbContext<DefaultContext>(options =>
                 options.UseSqlServer(connectionString));
+
+            services.AddTransient<IUserRepository, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

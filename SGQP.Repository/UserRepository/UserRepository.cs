@@ -20,15 +20,19 @@ namespace SGQP.Repository.UserReposiory
         public void SaveUser(string username, string firstname, string lastname, string password)
         {
             Password psw = new Password();
-            psw.Content = password;
+
+            var salt = psw.CreateSalt();
+            var hash = psw.CreateHash(password, salt);
 
             var user = new User()
             {
                 Username = username,
                 FirstName = firstname,
                 LastName = lastname,
-                Password = psw
+                Password = hash
             };
+
+            _ctx.Set<User>().Add(user);
             _ctx.SaveChanges();
         }
     }

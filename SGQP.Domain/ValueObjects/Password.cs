@@ -8,7 +8,7 @@ namespace SGQP.Domain.ValueObjects
     public class Password
     {
         public int Id { get; set; }
-        public string Content { get; set; }
+        //public string Content { get; set; }
 
         public string CreateHash(string value, string salt)
         {
@@ -31,7 +31,8 @@ namespace SGQP.Domain.ValueObjects
             using (var generator = RandomNumberGenerator.Create())
             {
                 generator.GetBytes(randomBytes);
-                return Convert.ToBase64String(randomBytes);
+                //return Convert.ToBase64String(randomBytes);
+                return "BCiFRpKRo4kjTnI8yLIp0w==";
             }
         }
     }
