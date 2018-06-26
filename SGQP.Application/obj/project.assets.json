@@ -2933,11 +2933,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\repositorio\\SGQP\\SGQP.Application\\SGQP.Application.csproj",
+      "projectUniqueName": "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.Application\\SGQP.Application.csproj",
       "projectName": "SGQP.Application",
-      "projectPath": "C:\\repositorio\\SGQP\\SGQP.Application\\SGQP.Application.csproj",
+      "projectPath": "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.Application\\SGQP.Application.csproj",
       "packagesPath": "C:\\Users\\Su\\.nuget\\packages\\",
-      "outputPath": "C:\\repositorio\\SGQP\\SGQP.Application\\obj\\",
+      "outputPath": "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

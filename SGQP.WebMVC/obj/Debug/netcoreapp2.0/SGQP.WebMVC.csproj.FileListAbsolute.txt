@@ -13,3 +13,7 @@ C:\repositorio\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.AssemblyInfo
 C:\repositorio\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.AssemblyInfo.cs
 C:\repositorio\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.dll
 C:\repositorio\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.pdb
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.csprojResolveAssemblyReference.cache
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.csproj.CoreCompileInputs.cache
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.AssemblyInfoInputs.cache
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.WebMVC\obj\Debug\netcoreapp2.0\SGQP.WebMVC.AssemblyInfo.cs

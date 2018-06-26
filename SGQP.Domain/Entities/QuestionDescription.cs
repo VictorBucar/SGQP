@@ -5,11 +5,11 @@ namespace SGQP.Domain.Entities
 {
     public class QuestionDescription
     {
-        public QuestionDescription(string content)
-        {
-            content = Content;
-            Alternatives = new List<QuestionAlternative>();
-        }
+        //public QuestionDescription(string content)
+        //{
+        //    content = Content;
+        //    Alternatives = new List<QuestionAlternative>();
+        //}
 
         public Guid Id { get; set; }
         public string Cod { get; set; }

@@ -5,11 +5,20 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using System.Threading.Tasks;
+using SGQP.Domain.Interfaces.Repositories;
+using SGQP.Domain.ValueObjects;
 
 namespace SGQP.WebMVC.Controllers
 {
     public class AccountController : Controller
     {
+        private readonly IUserRepository _userRepository;
+
+        public AccountController(IUserRepository userRepository)
+        {
+            _userRepository = userRepository;
+        }
+
         [HttpGet]
         public IActionResult Login()
         {
@@ -31,7 +40,7 @@ namespace SGQP.WebMVC.Controllers
                 return View(input);
             }
 
-            if(!UserAuthenticated(input.Username, input.Password))
+            if (!UserAuthenticated(input.Username, input.Password))
             {
                 ModelState.AddModelError(string.Empty, "Usuário ou senha inválidos");
                 return View(input);
@@ -61,7 +70,26 @@ namespace SGQP.WebMVC.Controllers
 
         private bool UserAuthenticated(string username, string password)
         {
-            return true;
+            bool isUserValid = false;
+
+            var user = _userRepository.GetUser(username);
+
+            Password psw = new Password();
+
+            var salt = psw.CreateSalt();
+            var hash = psw.CreateHash(password, salt);
+
+            if (hash == user.Password.Content)
+            {
+                isUserValid = true;
+            }      
+
+            return isUserValid;
+        }
+
+        public void RegisterUser()
+        {
+            _userRepository.SaveUser("rmdcoelho@gmail.com","Raphael","Coelho","123456");
         }
     }
 }

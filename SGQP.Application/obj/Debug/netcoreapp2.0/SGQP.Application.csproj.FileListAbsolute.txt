@@ -6,3 +6,12 @@ C:\repositorio\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.As
 C:\repositorio\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.AssemblyInfo.cs
 C:\repositorio\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.dll
 C:\repositorio\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.pdb
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.Application\bin\Debug\netcoreapp2.0\SGQP.Application.deps.json
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.Application\bin\Debug\netcoreapp2.0\SGQP.Application.dll
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.Application\bin\Debug\netcoreapp2.0\SGQP.Application.pdb
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.csproj.CoreCompileInputs.cache
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.AssemblyInfoInputs.cache
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.AssemblyInfo.cs
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.dll
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.pdb
+C:\repositorio\ProjetoFinal2\SGQP\SGQP.Application\obj\Debug\netcoreapp2.0\SGQP.Application.csprojResolveAssemblyReference.cache

@@ -13257,11 +13257,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\repositorio\\SGQP\\SGQP.WebMVC\\SGQP.WebMVC.csproj",
+      "projectUniqueName": "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.WebMVC\\SGQP.WebMVC.csproj",
       "projectName": "SGQP.WebMVC",
-      "projectPath": "C:\\repositorio\\SGQP\\SGQP.WebMVC\\SGQP.WebMVC.csproj",
+      "projectPath": "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.WebMVC\\SGQP.WebMVC.csproj",
       "packagesPath": "C:\\Users\\Su\\.nuget\\packages\\",
-      "outputPath": "C:\\repositorio\\SGQP\\SGQP.WebMVC\\obj\\",
+      "outputPath": "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.WebMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13280,8 +13280,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\repositorio\\SGQP\\SGQP.Data\\SGQP.Data.csproj": {
-              "projectPath": "C:\\repositorio\\SGQP\\SGQP.Data\\SGQP.Data.csproj"
+            "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.Data\\SGQP.Data.csproj": {
+              "projectPath": "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.Data\\SGQP.Data.csproj"
             }
           }
         }
