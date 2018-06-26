@@ -14,6 +14,9 @@ This project originally started out as an interview with Professor Marcos Quezad
 #### Requirements:
   1. .NET Core >= 2.0
   
+## ARCHITECTURE
+
+  
 ## CONTRIBUTORS
 
   * [Raphael Coelho](https://github.com/raphaelmdcoelho/).
