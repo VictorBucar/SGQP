@@ -17,21 +17,8 @@ namespace SGQP.Repository.UserReposiory
 
         public User GetUser(string username) => _ctx.Set<User>().Where(x => x.Username == username).FirstOrDefault();
 
-        public void SaveUser(string username, string firstname, string lastname, string password)
+        public void SaveUser(User user)
         {
-            Password psw = new Password();
-
-            var salt = psw.CreateSalt();
-            var hash = psw.CreateHash(password, salt);
-
-            var user = new User()
-            {
-                Username = username,
-                FirstName = firstname,
-                LastName = lastname,
-                Password = hash
-            };
-
             _ctx.Set<User>().Add(user);
             _ctx.SaveChanges();
         }

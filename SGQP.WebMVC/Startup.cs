@@ -11,6 +11,8 @@ using SGQP.Data.Contexts;
 using Microsoft.EntityFrameworkCore;
 using SGQP.Domain.Interfaces.Repositories;
 using SGQP.Repository.UserReposiory;
+using SGQP.Domain.Interfaces.Services;
+using SGQP.Application.Services;
 
 namespace SGQP.WebMVC
 {
@@ -44,6 +46,7 @@ namespace SGQP.WebMVC
                 options.UseSqlServer(connectionString));
 
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IServiceUser, ServiceUser>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

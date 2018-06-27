@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SGQP.WebMVC.Models
+namespace MapperViewModels.ViewModels
 {
     public class LoginInputViewModel
     {

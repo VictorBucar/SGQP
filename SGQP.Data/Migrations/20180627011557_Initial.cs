@@ -1,7 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
-using System;
-using System.Collections.Generic;
 
 namespace SGQP.Data.Migrations
 {
@@ -18,19 +16,6 @@ namespace SGQP.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Disciplines", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Password",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Content = table.Column<string>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Password", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -74,26 +59,16 @@ namespace SGQP.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(nullable: false),
+                    Username = table.Column<string>(nullable: true),
                     FirstName = table.Column<string>(nullable: true),
                     LastName = table.Column<string>(nullable: true),
-                    PasswordId = table.Column<int>(nullable: true),
-                    Username = table.Column<string>(nullable: true)
+                    Salt = table.Column<string>(nullable: true),
+                    Password = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Users_Password_PasswordId",
-                        column: x => x.PasswordId,
-                        principalTable: "Password",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Users_PasswordId",
-                table: "Users",
-                column: "PasswordId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -112,9 +87,6 @@ namespace SGQP.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "Users");
-
-            migrationBuilder.DropTable(
-                name: "Password");
         }
     }
 }

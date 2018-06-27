@@ -19,6 +19,7 @@ namespace SGQP.Domain.Entities
         public string Username { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Salt { get; set; }
         public string FullName => FirstName + LastName;
         public string Password { get; set; }
         public bool IsActive => true;

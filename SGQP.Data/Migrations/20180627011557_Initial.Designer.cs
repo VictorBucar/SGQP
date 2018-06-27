@@ -10,8 +10,8 @@ using SGQP.Data.Contexts;
 namespace SGQP.Data.Migrations
 {
     [DbContext(typeof(DefaultContext))]
-    [Migration("20180626031920_ChangePasswordObject")]
-    partial class ChangePasswordObject
+    [Migration("20180627011557_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -77,6 +77,8 @@ namespace SGQP.Data.Migrations
                     b.Property<string>("LastName");
 
                     b.Property<string>("Password");
+
+                    b.Property<string>("Salt");
 
                     b.Property<string>("Username");
 

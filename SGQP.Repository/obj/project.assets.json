@@ -950,6 +950,16 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "MapperViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MapperViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MapperViewModels.dll": {}
+        }
+      },
       "SGQP.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -969,6 +979,9 @@
       "SGQP.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "MapperViewModels": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SGQP.Domain.dll": {}
         },
@@ -3575,6 +3588,11 @@
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "MapperViewModels/1.0.0": {
+      "type": "project",
+      "path": "../MapperViewModels/MapperViewModels.csproj",
+      "msbuildProject": "../MapperViewModels/MapperViewModels.csproj"
     },
     "SGQP.Data/1.0.0": {
       "type": "project",

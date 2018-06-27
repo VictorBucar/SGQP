@@ -1,34 +1,27 @@
-﻿using System;
+﻿using MapperViewModels.ViewModels;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
-using SGQP.WebMVC.Models;
+using SGQP.Domain.Interfaces.Services;
+using SGQP.Domain.ValueObjects;
 using System.Collections.Generic;
 using System.Security.Claims;
-using Microsoft.AspNetCore.Authentication;
 using System.Threading.Tasks;
-using SGQP.Domain.Interfaces.Repositories;
-using SGQP.Domain.ValueObjects;
 
 namespace SGQP.WebMVC.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IServiceUser _serviceUser;
 
-        public AccountController(IUserRepository userRepository)
+        public AccountController(IServiceUser serviceUser)
         {
-            _userRepository = userRepository;
+            _serviceUser = serviceUser;
         }
 
         [HttpGet]
         public IActionResult Login()
         {
-            var input = new LoginInputViewModel
-            {
-                Username = "",
-                Password = ""
-            };
-
-            return View(input);
+            return View();
         }
 
         [HttpPost]
@@ -37,13 +30,13 @@ namespace SGQP.WebMVC.Controllers
             //Verifications section:
             if (!ModelState.IsValid)
             {
-                return View(input);
+                return View();
             }
 
             if (!UserAuthenticated(input.Username, input.Password))
             {
                 ModelState.AddModelError(string.Empty, "Usuário ou senha inválidos");
-                return View(input);
+                return View();
             }
 
             //Authentication section:
@@ -72,24 +65,49 @@ namespace SGQP.WebMVC.Controllers
         {
             bool isUserValid = false;
 
-            var user = _userRepository.GetUser(username);
+            var user = _serviceUser.GetUser(username);
 
-            Password psw = new Password();
-
-            var salt = psw.CreateSalt();
-            var hash = psw.CreateHash(password, salt);
-
-            if (hash == user.Password)
+            if(!(user == null))
             {
-                isUserValid = true;
-            }      
+                Password psw = new Password();
+
+                var salt = user.Salt;
+                var hash = psw.CreateHash(password, salt);
+
+                if (hash == user.Password)
+                {
+                    isUserValid = true;
+                }
+            }    
 
             return isUserValid;
         }
 
-        public void RegisterUser()
+        [HttpPost]
+        public IActionResult RegisterUser()
         {
-            _userRepository.SaveUser("rmdcoelho@gmail.com","Raphael","Coelho","123456");
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult RegisterUserSave(RegisterUserViewModel registerUser)
+        {
+            if(registerUser == null)
+            {
+                return View();
+            }
+
+            if (!(registerUser.Password.Equals(registerUser.PasswordConfirmation)))
+            {
+                return View();
+            }
+
+            if (ModelState.IsValid)
+            {
+                _serviceUser.SaveUser(registerUser);
+            }
+
+            return RedirectToAction("Login", "Account", null);
         }
     }
 }

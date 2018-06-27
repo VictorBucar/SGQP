@@ -193,6 +193,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MapperViewModels\MapperViewModels.csproj" />
+    <ProjectReference Include="..\SGQP.Application\SGQP.Application.csproj" />
     <ProjectReference Include="..\SGQP.Data\SGQP.Data.csproj" />
     <ProjectReference Include="..\SGQP.Repository\SGQP.Repository.csproj" />
   </ItemGroup>

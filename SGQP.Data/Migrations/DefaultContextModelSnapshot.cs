@@ -76,6 +76,8 @@ namespace SGQP.Data.Migrations
 
                     b.Property<string>("Password");
 
+                    b.Property<string>("Salt");
+
                     b.Property<string>("Username");
 
                     b.HasKey("Id");

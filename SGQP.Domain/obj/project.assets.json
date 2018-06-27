@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "MapperViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MapperViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MapperViewModels.dll": {}
+        }
       }
     }
   },
@@ -656,10 +666,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "MapperViewModels/1.0.0": {
+      "type": "project",
+      "path": "../MapperViewModels/MapperViewModels.csproj",
+      "msbuildProject": "../MapperViewModels/MapperViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "MapperViewModels >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -695,7 +711,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\repositorio\\ProjetoFinal2\\SGQP\\MapperViewModels\\MapperViewModels.csproj": {
+              "projectPath": "C:\\repositorio\\ProjetoFinal2\\SGQP\\MapperViewModels\\MapperViewModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

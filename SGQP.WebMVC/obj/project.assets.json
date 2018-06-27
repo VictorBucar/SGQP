@@ -5059,6 +5059,30 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "MapperViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MapperViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MapperViewModels.dll": {}
+        }
+      },
+      "SGQP.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "SGQP.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SGQP.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SGQP.Application.dll": {}
+        }
+      },
       "SGQP.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -5078,6 +5102,9 @@
       "SGQP.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "MapperViewModels": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SGQP.Domain.dll": {}
         },
@@ -13267,6 +13294,16 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "MapperViewModels/1.0.0": {
+      "type": "project",
+      "path": "../MapperViewModels/MapperViewModels.csproj",
+      "msbuildProject": "../MapperViewModels/MapperViewModels.csproj"
+    },
+    "SGQP.Application/1.0.0": {
+      "type": "project",
+      "path": "../SGQP.Application/SGQP.Application.csproj",
+      "msbuildProject": "../SGQP.Application/SGQP.Application.csproj"
+    },
     "SGQP.Data/1.0.0": {
       "type": "project",
       "path": "../SGQP.Data/SGQP.Data.csproj",
@@ -13285,10 +13322,12 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "MapperViewModels >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.0",
+      "SGQP.Application >= 1.0.0",
       "SGQP.Data >= 1.0.0",
       "SGQP.Repository >= 1.0.0"
     ]
@@ -13331,6 +13370,12 @@
             },
             "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.Repository\\SGQP.Repository.csproj": {
               "projectPath": "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.Repository\\SGQP.Repository.csproj"
+            },
+            "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.Application\\SGQP.Application.csproj": {
+              "projectPath": "C:\\repositorio\\ProjetoFinal2\\SGQP\\SGQP.Application\\SGQP.Application.csproj"
+            },
+            "C:\\repositorio\\ProjetoFinal2\\SGQP\\MapperViewModels\\MapperViewModels.csproj": {
+              "projectPath": "C:\\repositorio\\ProjetoFinal2\\SGQP\\MapperViewModels\\MapperViewModels.csproj"
             }
           }
         }
